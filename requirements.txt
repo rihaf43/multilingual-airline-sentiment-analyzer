@@ -1,0 +1,14 @@
+# Core Deep Learning & NLP Dependencies
+torch>=2.0.0
+transformers>=4.40.0
+safetensors>=0.4.0
+sentencepiece>=0.2.0
+
+# Desktop GUI Framework
+customtkinter>=6.0.0
+
+# Training & Evaluation (Optional - only needed to retrain)
+# accelerate>=0.30.0
+# datasets>=2.19.0
+# scikit-learn>=1.4.0
+# pandas>=2.0.0

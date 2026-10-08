@@ -1,0 +1,71 @@
+# ============================================
+# 🔒 Git Ignore - Security & File Size Policy
+# ============================================
+
+# Model Weights (> 100 MB GitHub limit)
+*.safetensors
+*.bin
+*.h5
+*.pt
+*.pth
+*.onnx
+model.safetensors
+
+# Archives & Compressed Files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Environment Variables & Secrets
+.env
+.env.*
+*.env
+secrets.json
+credentials.json
+*.pem
+*.key
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Logs & Temporary Files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# IDE & Editor Configs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
