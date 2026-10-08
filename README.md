@@ -62,7 +62,7 @@ Because GitHub enforces a **100 MB file limit**, the fine-tuned model binary (`m
 ```
 multilingual_sentiment_model/
 ├── config.json
-├── model.safetensors          <-- Place the downloaded 1.1GB weights here
+├── model.safetensors          <-- Place the downloaded 1.1GB weights here(https://drive.google.com/file/d/1FYAMtKTXJYQ9xjL25FPgeyuhLOJktyh1/view?usp=drive_link)
 ├── tokenizer.json
 └── tokenizer_config.json
 ```
